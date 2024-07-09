@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-image: url(2.jpg);
+}
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.contactus {
+  position: relative;
+  padding: 60px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  border: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.contactus h2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #8f2c24;
+  margin-bottom: 10px;
+}
+
+
+
+.contactus .inputBox input {
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 1.25em;
+  color: #8f2c24;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.contactus .inputBox ::placeholder {
+  color: #8f2c24;
+}
+
+.contactus .inputBox #btn {
+  position: relative;
+  border: none;
+  outline: none;
+  background: #8f2c24;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.25em;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.contactus .inputBox #btn:hover {
+  background: #d64c42;
+}
+
+.contactus .group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactus .group a {
+  font-size: 1.25em;
+  color: #8f2c24;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contactus .group a:nth-child(2) {
+  text-decoration: underline;
+}
+
+
+
+.header {
+  background-color: orange;
+  color: black;
+  padding: 10px 10px;
+  display: flex;
+}
+.logo {
+  margin-right: 10px;
+}
+.logo img {
+  height: 30px;
+}
+nav {
+display: flex;
+justify-content: center;
+}
+
+.middle-navigation {
+text-align: center;
+}
+ul.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+margin-left: 450px;
+}
+
+ul.menu li {
+float: left;
+text-align: center;
+}
+
+ul.menu li a {
+display: block;
+color:whitesmoke;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.menu li a:hover {
+background-color: #726b6b; 
+}
+
+
+.dropbtn {
+color: black;
+padding: 13px;
+font-size: 16px;
+cursor: pointer;
+background-color: inherit;
+border: none;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: whitesmoke;
+min-width: 160px;
+z-index: 1;
+}
+
+
+.sub-dropdown-content {
+display: none;
+background-color: #333;
+min-width: 160px;
+z-index: 1;
+position: absolute;
+top: 0;
+left: 100%;
+}
+
+
+.dropdown:hover .dropdown-content,
+.sub-dropdown:hover .sub-dropdown-content {
+display: block;
+}
+
+
+.dropdown-content a,
+.sub-dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover,
+.sub-dropdown-content a:hover {
+background-color: #555;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #fcf3f3;
+}
+h1{
+text-align: center;
+color: #0a0a0a;
+}
+
+.container {
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+background-color: #f0f0f0;
+}
+.container1 {
+width: 500px;
+margin: 0 auto;
+overflow: hidden;
+background-color: #f0f0f0;
+margin-left: 400px;
+}
+
+header {
+background-color: #0a0a0a;
+color: #ffffffd6;
+padding: 10px 0;
+}
+
+header .logo {
+float: left;
+}
+
+main {
+margin-top: 20px;
+}
+
+.main-footer{
+background-color: orange;
+margin-top: 0px;
+}
+.airlines {
+text-align: right;
+margin-left: 800px;
+margin-top: 0px;
+display: flex;
+gap: 100px;
+color: black;
+}
+
+.sub-footer{
+padding: 10PX;
+display: flex;
+align-items: center;
+justify-content:space-between;
+gap: 1PX;
+border-top: 0px solid black;
+}
+.sub-footer p{
+font-size: 10px;
+margin-left: 600px;
+}
+.social-media{
+display: flex;
+align-items: center;
+gap:1rem;
+color: var(--extra-light);
+margin-right: 10px;
+}
+.contactus1{
+margin-top: 40px;
+margin-left: 450px;
+margin-right: 15px;
+color: #000000;
+font-size: 15px;
+margin-bottom: 10px;
+}
+.footer{
+font-size: 13px;
+color: #000000;
+}
+.email{
+text-align: center;
+margin-top: 0px;
+color: #fff;
+}
+.media{
+text-align: right;
+margin-right: 10px;
+margin-bottom: 0px;
+color: #fff;
+}
+h2{
+text-align: left;
+margin-top: 10px;
+margin-left: 20px;
+color: #fff;
+}
+
